@@ -9,7 +9,7 @@ This notebook accompanies the EMBL-EBI training webinar
 Rather than calling a single endpoint, each case study chains multiple endpoints together to answer a
 specific biological question, and composes the results into a tidy `pandas` DataFrame.
 
-**Base URL:** `https://www.ebi.ac.uk/pdbe/api/v2`
+All endpoints used in this notebook are part of the **[PDBe API v2](https://www.ebi.ac.uk/pdbe/api/v2)**, with base URL <https://www.ebi.ac.uk/pdbe/api/v2>. The endpoint paths shown in the tables below are relative to it.
 
 ## What's inside
 
