@@ -21,9 +21,9 @@ pattern of endpoint composition:
 
 | # | Entry / accession | Pattern | Biological question |
 |---|---|---|---|
-| 1 | **1HVR** — HIV-1 protease | Residue-level joins (contacts ∩ interface ∩ conservation) | Which dimer interface residues contact the inhibitor, and how conserved are they? |
-| 2 | **2DN2** — Hemoglobin (HbA) | Entry-to-complex aggregation | Starting from one PDB entry, how is the corresponding PDBe-KB complex characterised? |
-| 3 | **Q96Y14** — *S. tokodaii* hexokinase | UniProt-anchored aggregation (superposition clusters ∩ bound ligands) | Do PDB structures of one protein partition into conformational states that correlate with ligand binding? |
+| 1 | **1HVR** — HIV-1 protease | Residue-level joins (contacts ∩ interface ∩ conservation) | Which interface residues contact the inhibitor? |
+| 2 | **2DN2** — Hemoglobin (HbA) | Entry-to-complex aggregation | What is known about this complex across the PDB? |
+| 3 | **Q96Y14** — *S. tokodaii* hexokinase | UniProt-anchored aggregation (superposition clusters ∩ bound ligands) | Do ligand-binding states explain conformational clusters? |
 
 ### Composition patterns
 
