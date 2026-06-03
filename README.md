@@ -30,7 +30,7 @@ pattern of endpoint composition:
 | Pattern | Application | Endpoints chained | Join key |
 |---|---|---|---|
 | **Residue-level intersection** (Example 1) | Identifying residues that satisfy multiple structural criteria simultaneously | `entry/molecules` → `bound_molecules` → `bound_molecule_interactions` → `pisa/interfaces` → `sequence_conservation` | `(chain_id, author_residue_number)` |
-| **Entry-to-complex aggregation** (Example 2) | Expanding a single PDB entry to all entries sharing the same biological complex | `complex/details` (by pdb_id) → `complex/details` (by pdb_complex_id) → `complex/bound_molecules_summary` → `complex/interactions` | `pdb_complex_id` |
+| **Entry-to-complex aggregation** (Example 2) | Expanding a single PDB entry to all entries representing the same biological complex | `complex/details` (by pdb_id) → `complex/details` (by pdb_complex_id) → `complex/bound_molecules_summary` → `complex/interactions` | `pdb_complex_id` |
 | **UniProt-anchored aggregation** (Example 3) | Grouping every PDB chain associated with a UniProt accession by structural state | `uniprot/superposition` → `pdb/entry/summary` → `pdb/entry/molecules` → `pdb/bound_molecules` → `pdb/compound/summary` | `(pdb_id, auth_asym_id)` |
 
 ## Requirements
