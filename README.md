@@ -60,4 +60,4 @@ interested in querying structural data programmatically. No prior experience wit
 
 ## Author
 
-Sri Devan Appasamy (EMBL-EBI)
+[Sri Devan Appasamy](https://www.linkedin.com/in/sri-appasamy/) (EMBL-EBI)
